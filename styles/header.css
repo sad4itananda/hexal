@@ -1,0 +1,38 @@
+header {
+  height: 63px;
+  background: #323232;
+  font-family: "Lato Bold";
+  font-size: 0.6em;
+  color: #ffffff;
+}
+
+.main-menu li a:hover {
+  color: #2eb398;
+}
+
+.main-menu li:nth-child(even) {
+  margin: 31px 40px 0;
+}
+
+.main-menu li:nth-child(odd):not(:nth-child(3)) {
+  margin: 31px -18px 0;
+}
+
+.logo {
+  position: relative;
+  top: 10px;
+  left: 2px;
+}
+
+header:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: solid 45px transparent;
+  border-right: solid 45px transparent;
+  border-top: solid 25px #323232;
+  position: absolute;
+  top: 63px;
+  left: 50%;
+  transform: translateX(-50%);
+}

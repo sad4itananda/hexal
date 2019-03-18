@@ -1,0 +1,123 @@
+.portfolio {
+  height: 720px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.d16 {
+  margin: 0 0 60px 17px;
+  width: 182px;
+  height: 106px;
+  position: relative;
+}
+
+.d16:before,
+.d16:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+  border-left: 91px solid transparent;
+  border-right: 91px solid transparent;
+}
+
+.d16:before {
+  top: -51px;
+  border-bottom: 51px solid transparent;
+
+}
+
+.d16:after {
+  bottom: -51px;
+  border-top: 51px solid transparent;
+
+}
+
+.portfolio>div {
+  width: 1000px;
+  height: 695px;
+  border-top: solid #ddd2c5 1px;
+  border-bottom: solid #ddd2c5 1px;
+  box-align: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.portfolio>div>div {
+  width: 820px;
+  height: 440px;
+  box-align: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d16:nth-child(5) {
+  margin-left: -84px;
+}
+
+.d16:last-child {
+  position: relative;
+  top: -335px;
+  right: -700px;
+}
+
+.d16 img {
+  margin: -50px 0 0 5px;
+}
+
+.d16:first-child::before,
+.d16:nth-child(9)::before {
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  border: 0.5px solid #ddd2c5;
+  top: 0;
+  left: -18px;
+}
+
+.d16:nth-child(4)::after,
+.d16:nth-child(12)::after {
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  border: 0.5px solid #ddd2c5;
+  top: 0;
+  left: 206px;
+}
+
+.pangination {
+  display: flex;
+  justify-content: space-around;
+  width: 52px;
+  height: 6px;
+  position: absolute;
+  top: 755px;
+  left: 150px;
+}
+
+.button {
+  width: 6px;
+  height: 6px;
+  background: #ddd2c5;
+}
+
+.on {
+  background: #8b8784;
+}
+.d16 img:hover {
+  -webkit-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}

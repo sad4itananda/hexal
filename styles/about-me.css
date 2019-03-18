@@ -1,0 +1,49 @@
+.about-me {
+  height: 338px;
+  background: #2eb398;
+  padding-top: 5px;
+}
+
+.wrapper-about-me {
+  width: 820px;
+  height: 325px;
+  border-left: 1px solid #219d84;
+  border-right: 1px solid #219d84;
+  margin: 0 auto;
+}
+
+.me-photo {
+  padding: 63px 20px 0;
+}
+
+.about-me h1 {
+  color: #fff;
+  font-family: "Maven Pro";
+  font-size: 1.83em;
+  margin-top: 60px;
+}
+
+.about-me h2 {
+  color: #20816d;
+  font-family: "Maven Pro";
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+.about-me p {
+  color: #fff;
+  font-family: "Lato Regular";
+  font-size: 11px;
+  margin-top: 12px;
+  line-height: 2em;
+}
+
+.social {
+  margin: 38px 0 0 434px;
+}
+
+.social a:hover {
+  outline: 4px solid #2eb397;
+  z-index: 1;
+
+}

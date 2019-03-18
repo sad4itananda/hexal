@@ -1,0 +1,112 @@
+.get-in-touch {
+  height: 553px;
+  background: #323232;
+  padding-top: 10px;
+}
+
+.wrapper-get-in-touch {
+  box-sizing: border-box;
+  height: 540px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 50px 0 0 95px;
+  border-top: 1px solid #1a1a1a;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.form-getintouch {
+  flex-basis: 580px;
+}
+
+.get-in-touch h3 {
+  color: #fff;
+  font-family: "Maven Pro";
+  font-size: 1.9em;
+}
+
+.get-in-touch p {
+  color: #fff;
+  font-family: "Maven Pro";
+  font-size: 21px;
+  margin-bottom: 7px;
+}
+
+.form-getintouch input {
+  padding: 0 0 0 14px;
+  height: 38px;
+  margin-top: 16px;
+  background: #454545;
+  color: #fff;
+  font-size: 12px;
+  border: none;
+  font-family: "Lato Regular";
+}
+
+
+.form-getintouch textarea {
+  padding: 12px 0 0 14px;
+  height: 138px;
+  margin-top: 16px;
+  background: #454545;
+  color: #fff;
+  font-size: 12px;
+  border: none;
+  font-family: "Lato Bold";
+  resize: none;
+}
+
+.form-getintouch input[type="submit"] {
+  margin-top: 15px;
+  width: 90px;
+  height: 38px;
+  align-self: flex-end;
+  background: #2eb398;
+  font-size: 12px;
+  font-family: "Lato Bold";
+  border: none;
+  text-align: center;
+}
+
+.form-getintouch input[type="submit"]:hover {
+  outline: 3px solid #abddd7;
+  color: #c8c6c6;
+  font-size: 13px;
+}
+
+::placeholder {
+  color: #e0e0e0;
+}
+
+.form-getintouch+div {
+  flex-basis: 190px;
+  margin: 11px 0 0 20px;
+
+}
+
+.form-getintouch+div p {
+  font-size: 11px;
+  line-height: 2em;
+  font-family: "Lato Regular";
+}
+
+.form-getintouch+div span {
+  font-family: "Lato Black";
+}
+
+.contacts span {
+  color: #2eb398;
+  zoom: 1.5;
+  margin-right: 5px;
+}
+
+.contacts p {
+  margin: -1px 0 0 0;
+}
+
+.contacts {
+  margin: 34px 0 0 0;
+}
+
+.contacts a:hover {
+  color: #2eb398;
+}
